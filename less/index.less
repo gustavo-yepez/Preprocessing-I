@@ -57,13 +57,14 @@ html, body {
 	height: 100%;
 }
 
-:flex-box{
+.flex-box{
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 } 
 
 header nav a{
+	color: gray;
 	margin-right: 10px;
 	text-decoration: none;
   }
@@ -77,5 +78,105 @@ header nav a{
 		flex-direction: column;
 		text-align: center;
 	}
+
+	div{
+		display: block;
+	}
   }
 
+  
+
+.page-content{
+	border-top: 1px solid black;
+	margin-top: 76px;
+	padding-top: 39px;
+	width: 710px;
+	display: inline-block;
+	margin-right: 34px;
+
+	.top-content{
+		display: flex;
+		text-align: start;
+	}
+
+	.bottom-content{
+		display: flex;
+		text-align: center;
+	}
+}
+
+
+h2{
+	font-size: 20px;
+	font-family: 'Titillium Web', sans-serif;
+	padding: 5px;
+}
+.timecard{
+	text-align: center;
+}
+
+  address {
+	margin-top: 57px;
+	border-top: 1px solid black;
+	padding: 39px 10px 0;
+
+	h4{
+		font-size:  14px;
+	}
+}
+
+
+
+
+
+footer{
+	margin: 32px 0;
+	padding: 30px;
+	text-align: center;
+	font-size: 14px;
+	background: grey;
+
+
+}
+.top-part{
+	padding: 10px;
+}
+
+.context-box{
+	padding: 10px;
+}
+.bottom-content{
+	padding: 10px;
+}
+
+  table.blueTable td, table.blueTable th {
+	border: 1px solid #AAAAAA;
+	padding: 3px 2px;
+  }
+  table.blueTable tbody td {
+	font-size: 13px;
+  }
+  table.blueTable tr:nth-child(even) {
+	background: #D0E4F5;
+  }
+  table.blueTable thead {
+	background: #1C6EA4;
+	border-bottom: 2px solid #444444;
+  }
+  table.blueTable thead th {
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border-left: 2px solid #D0E4F5;
+  }
+  table.blueTable thead th:first-child {
+	border-left: none;
+  }
+  
+  table.blueTable tfoot td {
+	font-size: 14px;
+  }
+  table.blueTable tfoot .links {
+	text-align: right;
+  }
+ 
