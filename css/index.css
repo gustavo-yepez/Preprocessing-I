@@ -134,3 +134,20 @@ html,
 body {
   height: 100%;
 }
+:flex-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+header nav a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+.container {
+  display: flex;
+}
+.container .cta-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
