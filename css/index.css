@@ -143,9 +143,16 @@ header nav a {
   color: gray;
   margin-right: 10px;
   text-decoration: none;
+  display: inline-block;
+  width: 61px;
+  vertical-align: top;
+  margin-top: 35px;
+  padding: 20px;
 }
 .container {
   display: flex;
+  max-width: 800px;
+  margin: auto;
 }
 .container .cta-text {
   display: flex;
@@ -169,6 +176,8 @@ header nav a {
 }
 .page-content .bottom-content {
   display: flex;
+  padding: 10px;
+  width: 100%;
   text-align: center;
 }
 h2 {
@@ -187,6 +196,9 @@ address {
 address h4 {
   font-size: 14px;
 }
+ul {
+  border-block: grey;
+}
 footer {
   margin: 32px 0;
   padding: 30px;
@@ -199,14 +211,15 @@ footer {
 }
 .context-box {
   padding: 10px;
+  display: flex;
+  font-size: 110%;
 }
-.bottom-content {
-  padding: 10px;
-}
+/* Table blue */
 table.blueTable td,
 table.blueTable th {
   border: 1px solid #AAAAAA;
   padding: 3px 2px;
+  text-align: center;
 }
 table.blueTable tbody td {
   font-size: 13px;
