@@ -173,12 +173,12 @@ footer{
 		display: flex;
 
 		.content-box{
-			color: red;
+			
 			text-align: start;
 		}
 
 		.content-box2{
-			color: green;
+			
 		}
 
 	}
@@ -237,3 +237,61 @@ button{
 	text-align: right;
   }
  
+/* Phone view */
+
+@media(max-width: 500px){
+    body{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 1.25em;
+    }
+
+    .content-box{
+        margin: 5%;
+    }
+    header{
+        display: flex;
+    }
+
+    nav{
+        width: 200px;
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 100px; 
+        justify-items: center;
+    }
+
+    .container a{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        font-size: 1.25em;
+        width: 3vw;
+        padding: 15px;
+    }
+
+    .page-content{
+        flex-direction: column;
+        font-size: 1.25em;
+    }
+
+    .logo{
+        width: 100%;
+        margin: 7rem;
+    }
+
+    .top-content{
+        flex-direction: column;
+        font-size: 1.25em;
+    }
+
+    .bottom-content{
+        flex-direction: column;
+        font-size: 1.25em;
+    }
+
+
+}
