@@ -141,13 +141,12 @@ body {
 }
 header nav a {
   color: gray;
-  margin-right: 10px;
   text-decoration: none;
   display: inline-block;
-  width: 61px;
-  vertical-align: top;
+  width: 60px;
+  vertical-align: baseline;
   margin-top: 35px;
-  padding: 20px;
+  margin: 0 auto;
 }
 .container {
   display: flex;
@@ -158,17 +157,21 @@ header nav a {
   display: flex;
   flex-direction: column;
   text-align: center;
+  background: #1C6EA4;
+}
+.container .cta-text h1 {
+  font-size: 50px;
 }
 .container div {
   display: block;
 }
 .page-content {
   border-top: 1px solid black;
-  margin-top: 76px;
+  margin-top: 10px;
   padding-top: 39px;
   width: 710px;
   display: inline-block;
-  margin-right: 34px;
+  background: #b94d4d;
 }
 .page-content .top-content {
   display: flex;
@@ -181,23 +184,32 @@ header nav a {
   text-align: center;
 }
 h2 {
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Titillium Web', sans-serif;
   padding: 5px;
+  text-align: left;
 }
 .timecard {
   text-align: center;
 }
+.timecard ul {
+  border-top: black;
+}
 address {
-  margin-top: 57px;
+  margin-top: 10px;
   border-top: 1px solid black;
   padding: 39px 10px 0;
+  background: #8c378f;
 }
 address h4 {
-  font-size: 14px;
+  font-size: 30px;
 }
 ul {
   border-block: grey;
+  border-left: 2px solid #D0E4F5;
+  border-bottom: 2px solid #444444;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
 }
 footer {
   margin: 32px 0;
@@ -205,9 +217,32 @@ footer {
   text-align: center;
   font-size: 14px;
   background: grey;
+  margin-top: 10px;
 }
 .top-part {
   padding: 10px;
+}
+.top-part .page-content {
+  width: 100%;
+  display: flex;
+}
+.top-part .page-content .content-box {
+  color: red;
+  text-align: start;
+}
+.top-part .page-content .content-box2 {
+  color: green;
+}
+button {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: blueviolet;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
 }
 .context-box {
   padding: 10px;
